@@ -19,6 +19,10 @@ namespace Efficient_CSHarp
             //UseList(["2"],["","3"]);
             //UseStringLR({s},{s});
             //UseStringLRUpper({[s]},{[s]});
+
+            string result = litiDemo.createClassStruct();
+            result = litiDemo.refXmlDocument();
+            result = litiDemo.stringLists();
             slist = null;
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
