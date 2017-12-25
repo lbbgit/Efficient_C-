@@ -18,9 +18,10 @@ namespace Efficient_CSHarp
             String[] Slist={"ha"};
             //UseList(["2"],["","3"]);
             //UseStringLR({s},{s});
-            //UseStringLRUpper({[s]},{[s]});
+            //UseStringLRUpper({[s]},{[s]}); 
 
-            string result = litiDemo.createClassStruct();
+            string result = litiDemo.buildStructTree();
+             result = litiDemo.createClassStruct();
             result = litiDemo.refXmlDocument();
             result = litiDemo.stringLists();
             slist = null;
