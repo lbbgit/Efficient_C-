@@ -7,16 +7,16 @@ using System.IO;
 using System.Web.Script.Serialization;//System.Web.Extensions.dll。
 
 using System.Collections;
-using System.Collections.Generic; 
 using System.Runtime.Serialization;//.dll
 using System.Runtime.Serialization.Json;
 
 namespace Efficient_CSHarp
 {
     public class nv { public string name, value;}
-    public class nvgs { 
+    public class nvgs
+    {
         public string name { get; set; }
-        public string value{get;set;} 
+        public string value { get; set; }
     }
     public class Json2List
     {

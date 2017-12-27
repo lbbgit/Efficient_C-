@@ -22,7 +22,7 @@ namespace Efficient_CSHarp
             //UseList(["2"],["","3"]);
             //UseStringLR({s},{s});
             //UseStringLRUpper({[s]},{[s]}); 
-            
+            DataTableSelect.test1();
             Json2List.json1();
 
             string result = litiDemo.buildStructTree();
