@@ -111,7 +111,15 @@ namespace Efficient_CSHarp
             return xdoc.CreateElement(name);
         }
 
-
+        public static object testParstringlist()
+        {
+            object obj1 = new object[]{ "1,", "2" };
+            //object obj11 = {[ "1,", "2"] };
+            //object obj2=["a","b",[1,33]];
+            //object obj3=["a","b",["1","33"]];
+            //object obj4=["a","b","1","33"];
+            return obj1;
+        } 
 
 
 

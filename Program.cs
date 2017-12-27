@@ -16,9 +16,14 @@ namespace Efficient_CSHarp
             string s = "23,3,23";
             string[] slist={s};
             String[] Slist={"ha"};
+
+            string a = "<asdjlfs>>";
+            a = a.Trim(new char[]{'<','>'});
             //UseList(["2"],["","3"]);
             //UseStringLR({s},{s});
             //UseStringLRUpper({[s]},{[s]}); 
+            
+            Json2List.json1();
 
             string result = litiDemo.buildStructTree();
              result = litiDemo.createClassStruct();
