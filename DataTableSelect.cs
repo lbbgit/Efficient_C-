@@ -45,6 +45,19 @@ namespace Efficient_CSHarp
              dttemp = GetDataTableDistinctCols(dt, new string[] { "b"});
              dttemp = GetDataTableDistinctCols(dt, new string[] { "a","b"});
              dttemp = GetDataTableDistinctCols(dt, new string[] { "a","b","c"});
+
+             //test break,continue;
+             foreach (DataRow dr in dttemp.Rows)
+             {
+                 if (dr["a"].ToString() == "1")
+                     continue;
+                 if (dr["b"].ToString() == "2")
+                     break;
+                 if (dr["c"].ToString() == "1")
+                     continue;
+                 dr["c"] = 99;
+             }
+
              dttemp = dt;
          }
     }
